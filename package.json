@@ -1,6 +1,6 @@
 {
   "name": "status",
-  "version": "1.7.1",
+  "version": "1.8.0",
   "main": "index.js",
   "license": "MIT",
   "homepage": "https://github.com/glopezep/helm",
@@ -12,7 +12,8 @@
     "@actions/core": "^1.2.6",
     "@actions/exec": "^1.0.0",
     "@actions/github": "^1.0.0",
-    "mustache": "^3.0.3"
+    "mustache": "^3.0.3",
+    "standard-version": "^9.5.0"
   },
   "scripts": {
     "release": "standard-version"
